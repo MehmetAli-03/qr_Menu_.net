@@ -1,0 +1,40 @@
+@model List<Kategori>
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container">
+        <div class="card-header">
+          <h2>Kategoriler</h2>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Kategori Adı</th>
+              <th>Toplam Ürün</th>
+              <th></th>
+              <th>İşlemler</th>
+            </tr>
+          </thead>
+          <tbody>
+            @foreach(var kat in Model)
+            {
+             <tr>
+              <td>@kat.Id</td>
+              <td>@kat.KategoriAdi</td>
+              <td>@kat.Products.Count</td>
+              <td>
+              <td>
+           <a asp-controller="Product" asp-action="ByCategory" asp-route-id="@kat.Id" class="btn btn-secondary">
+        <i class="fa-solid fa-right-long"></i>
+          </a>
+           </td>
+
+              </td>
+            </tr>   
+            }
+            
+          </tbody>
+        </table>
+      </div>

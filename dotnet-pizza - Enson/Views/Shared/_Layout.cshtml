@@ -1,0 +1,104 @@
+﻿@model dotnet_pizza.Models.HomeViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Menü</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    </head>
+    <body>
+    <header id="home" class="main-header">
+    @await Html.PartialAsync("Partials/_Header");
+    </header>
+    
+ <section id="pizza3"><h2 class="AnaBaslik"><i>Pizzalar</i></h2>
+   <section id="pizza" class="pizza-section">
+     <div class="pizza-container">
+      @foreach(var Product in Model.Pizzas!)
+      {
+        @await Html.PartialAsync("Partials/_Pizza",Product)
+      }
+     </div>
+   </section>
+      </section>
+    <section id="burger" class="burger-section">
+      <h2 class="AnaBaslik"><i>Çıtır Menüler</i></h2>
+      <div class="burger-container">
+        @foreach(var Product in Model.Citirs!)
+      {
+        @await Html.PartialAsync("Partials/_Citir",Product)
+      }
+        </div>
+      
+    </section>
+    <section id="burger" class="burger-section">
+      <h2 class="AnaBaslik"><i>Burger Menüler</i></h2>
+       <div class="burger-container">
+      @foreach(var Product in Model.Burgers!)
+      {
+        @await Html.PartialAsync("Partials/_Burger",Product)
+      }
+       </div>
+    </section>
+    <section id="tost">
+      <h2 class="AnaBaslik"><i>TOST & BÖREKLER</i></h2>
+    </section>
+    <section>
+      @RenderBody();
+    </section>
+    <section id="icecek">
+      <div class="menu-container">
+        <section class="menu-section">
+          <h2 class="menu-title">Tostlar</h2>
+          @foreach(var Product in Model.Tosts!)
+      {
+        @await Html.PartialAsync("Partials/_Tost",Product)
+      }
+        </section>
+        <section class="menu-section">
+          <h2 class="menu-title">BÖREKLER</h2>
+             @foreach(var Product in Model.Boreks!)
+      {
+        @await Html.PartialAsync("Partials/_borek",Product)
+      }
+        </section>
+      </div>
+    </section>
+    <h2 class="AnaBaslik">ATIŞTIRMALIK & İÇECEKLER</h2>
+    <section>
+      <div class="menu-container">
+        <section class="menu-section">
+          <h2 class="menu-title">İÇECEKLER</h2>
+                  @foreach(var Product in Model.Iceceks!)
+      {
+        @await Html.PartialAsync("Partials/_Icecek",Product)
+      }
+        </section>
+        <section class="menu-section">
+           <h2 class="menu-title">ATIŞTIRMALIK</h2>
+                @foreach(var Product in Model.Atistirmaliks!)
+      {
+        @await Html.PartialAsync("Partials/_atistirma",Product)
+      }
+        </section>
+      
+      </div>
+    </section>
+    <!-- Footer Bölümü -->
+    <footer id="iletim" class="footer">
+      @await Html.PartialAsync("Partials/_Footer");
+    </footer>
+</body>
+</html>

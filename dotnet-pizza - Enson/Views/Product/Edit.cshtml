@@ -1,0 +1,39 @@
+@model ProductEditModel
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+} 
+
+<div class="form-container">
+    <div class="form-left">
+        <h2>Ürün Güncelleme</h2>
+        <form method="post">
+            <input type="hidden" name="Id" value="@Model.Id">
+            <label asp-for="ProductName">Ürün Adı</label>
+            <input asp-for="ProductName" class="form-control" placeholder="Örn: Pizza" />
+
+            <label asp-for="Tanitim">Yemek Açıklaması</label>
+            <textarea asp-for="Tanitim" class="form-control" rows="4" placeholder="Ürün Açıklaması..."></textarea>
+
+            <label asp-for="Price1">Fiyat (₺)</label>
+            <input asp-for="Price1" type="number" step="0.01" class="form-control" placeholder="Örn: 200.00" />
+
+            <label asp-for="Price2">Fiyat2 (Pizza İçin)</label>
+            <input asp-for="Price2" type="number" class="form-control" placeholder="Örn: 250" />
+
+            <label asp-for="KategoriId">Kategori</label>
+            <select asp-for="KategoriId" class="form-control">
+                @foreach(var kategori in (List<Kategori>) ViewData["Kategoriler"]!)
+                {
+                    <option value="@kategori.Id">@kategori.KategoriAdi</option>
+                }
+            </select>
+
+            <button type="submit">Kaydet</button>
+        </form>
+    </div>
+
+    <div class="form-right">
+        <img src="~/img/@Model.Image" asp-append-version="true" alt="Pizza" class="product-img" />
+        <input type="file" id="resimYukle" accept="image/*" onchange="previewImage(event)" />
+    </div>
+</div>

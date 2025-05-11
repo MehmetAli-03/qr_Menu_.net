@@ -1,0 +1,11 @@
+@model dotnet_pizza.Models.Product
+        <div class="pizza-item">
+          <img src="img/@Model.Image" alt="Margherita Pizza" />
+          <h3>@Model.ProductName</h3>
+          <p>
+            @Model.Tanitim</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: @Model.Price1₺</span><br />
+            <span class="large-price">Büyük Boy:@Model.Price2₺</span>
+          </div>
+        </div>

@@ -1,0 +1,53 @@
+@model List<Product>
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container" id="urunler">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h2>Ürün Listesi</h2>
+        <a asp-controller="Product" asp-action="Create" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Ürün Ekle
+        </a>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Ürün İd</th>
+                <th>Ürün İsmi</th>
+                <th>Açıklama</th>
+                <th>Fiyat1</th>
+                <th>Fiyat2</th>
+                <th>Fotoğraf</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var urun in Model)
+            {
+                <tr>
+                    <td>@urun.Id</td>
+                    <td>@urun.ProductName</td>
+                    <td>@urun.Tanitim</td>
+                    <td>@urun.Price1</td>
+                    <td>@urun.Price2</td>
+                    <td>
+                        <img src="~/img/@urun.Image" asp-append-version="true" alt="Pizza" class="product-img" />
+                    </td>
+                    <td class="action-icons">
+                        <a asp-controller="Product" asp-action="Edit" asp-route-id="@urun.Id">
+                            <i class="fas fa-edit text-primary"></i>
+                        </a>
+
+                        <form asp-controller="Product" asp-action="Delete" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@urun.Id" />
+                            <button type="submit" style="background:none;border:none;padding:0;" 
+                                    onclick="return confirm('Bu ürünü silmek istediğinize emin misiniz?');">
+                                <i class="fas fa-trash text-danger"></i>
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

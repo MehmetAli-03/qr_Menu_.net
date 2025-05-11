@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\PizzaMenü4\\index.html",
+      "PackagePath": "staticwebassets\\PizzaMenü4\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\css\\style1.css",
+      "PackagePath": "staticwebassets\\css\\style1.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\css\\style2.css",
+      "PackagePath": "staticwebassets\\css\\style2.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\TrendyolYemek.png",
+      "PackagePath": "staticwebassets\\img\\TrendyolYemek.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\amblem.png",
+      "PackagePath": "staticwebassets\\img\\amblem.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\burger.jpg",
+      "PackagePath": "staticwebassets\\img\\burger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\burger2.jpg",
+      "PackagePath": "staticwebassets\\img\\burger2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\burger4.jpeg",
+      "PackagePath": "staticwebassets\\img\\burger4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\foubzxjr.3vr.jpg",
+      "PackagePath": "staticwebassets\\img\\foubzxjr.3vr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\getir.png",
+      "PackagePath": "staticwebassets\\img\\getir.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\giris.jpg",
+      "PackagePath": "staticwebassets\\img\\giris.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\hsdnrx3c.khr.jpg",
+      "PackagePath": "staticwebassets\\img\\hsdnrx3c.khr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\mpd2nunf.bdm.jpg",
+      "PackagePath": "staticwebassets\\img\\mpd2nunf.bdm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\ngdljhp0.1d4.jpg",
+      "PackagePath": "staticwebassets\\img\\ngdljhp0.1d4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\nznvf53v.2zw.jpg",
+      "PackagePath": "staticwebassets\\img\\nznvf53v.2zw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\ofj3ra3y.hte.jpg",
+      "PackagePath": "staticwebassets\\img\\ofj3ra3y.hte.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\pizza.jpg",
+      "PackagePath": "staticwebassets\\img\\pizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\pizza2.jpg",
+      "PackagePath": "staticwebassets\\img\\pizza2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\pizza3.jpeg",
+      "PackagePath": "staticwebassets\\img\\pizza3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\pizza4.jpeg",
+      "PackagePath": "staticwebassets\\img\\pizza4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\r2qdggbb.gv3.jpg",
+      "PackagePath": "staticwebassets\\img\\r2qdggbb.gv3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\tjxvan04.rd1.jpg",
+      "PackagePath": "staticwebassets\\img\\tjxvan04.rd1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\tz0qtnke.xj4.jpg",
+      "PackagePath": "staticwebassets\\img\\tz0qtnke.xj4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\wuhuufgf.e0v.jpg",
+      "PackagePath": "staticwebassets\\img\\wuhuufgf.e0v.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\yemekSepeti.png",
+      "PackagePath": "staticwebassets\\img\\yemekSepeti.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\img\\ys5pzhb4.2mw.jpg",
+      "PackagePath": "staticwebassets\\img\\ys5pzhb4.2mw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\dotnet-pizza - Kopya (2)\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.dotnet-pizza.props",
+      "PackagePath": "build\\dotnet-pizza.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.dotnet-pizza.props",
+      "PackagePath": "buildMultiTargeting\\dotnet-pizza.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.dotnet-pizza.props",
+      "PackagePath": "buildTransitive\\dotnet-pizza.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.dotnet-pizza.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.dotnet-pizza.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

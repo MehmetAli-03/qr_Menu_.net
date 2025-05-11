@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Menü</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/efekt.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <header id="home" class="main-header">
+      <div class="navbar">
+        <h1 class="brand">
+          <img src="img/amblem.png" alt="" />
+        </h1>
+        <div class="toggle-icon" onclick="toggleMenu()">☰</div>
+        <nav>
+          <ul>
+            <li><a href="#pizza3">Pizzalar</a></li>
+            <li><a href="#burger">Burger</a></li>
+            <li><a href="#tost">Börekler & Tostlar</a></li>
+            <li><a href="#icecek">Atıştırmalık & İçecekler</a></li>
+            <li><a href="#iletim">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    <!-- <script src="js/efekt.js"></script> -->
+      <script>
+        function toggleMenu() {
+          const menu = document.querySelector('.navbar nav ul');
+          menu.classList.toggle('active');
+        }
+    
+        // Menü öğelerine tıklandığında toggle menüyü kapat
+        document.querySelectorAll('.navbar nav ul li a').forEach(link => {
+          link.addEventListener('click', () => {
+            const menu = document.querySelector('.navbar nav ul');
+            if (menu.classList.contains('active')) {
+              menu.classList.remove('active');
+            }
+          });
+        });
+      </script>
+    
+      <div class="content">
+        <img src="img/amblem.png" alt="" />
+        <p>HOŞGELDİNİZ</p>
+        <a href="#pizza3" class="btn-more">MENÜ</a>
+      </div>
+    </header>
+    
+<section id="pizza3"><h2 class="AnaBaslik"><i>Pizzalar</i></h2></section>
+    <!-- Pizza Görselleri -->
+    <section id="pizza" class="pizza-section">
+      <div class="pizza-container">
+        <div class="pizza-item">
+          <img src="img/pizza.jpg" alt="Margherita Pizza" />
+          <h3>Pizza Seven</h3>
+          <p>
+            Mozzarella,Domates Sosu,Salam,Sucuk,</p>
+          <p>Sosis,Mısır,Zeytin,Mantar</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 165₺</span><br />
+            <span class="large-price">Büyük Boy: 265₺</span>
+          </div>
+        </div>
+        <div class="pizza-item">
+          <img src="img/pizza2.jpg" alt="Margherita Pizza" />
+          <h3>Pizza Lüx</h3>
+          <p>
+            Mozzarella,Domates Sosu,Sucuk,</p>
+          <p>Sosis,Mısır,Zeytin,Mantar</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 155₺</span><br />
+            <span class="large-price">Büyük Boy: 260₺</span>
+          </div>
+        </div>
+        <div class="pizza-item">
+          <img src="img/pizza3.jpeg" alt="Margherita Pizza" />
+          <h3>Pizza Margarita</h3>
+          <p>
+            Mozzarella,Domates Sosu,Domates</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 145₺</span><br />
+            <span class="large-price">Büyük Boy: 255₺</span>
+          </div>
+        </div>
+        <div class="pizza-item">
+          <img src="img/pizza4.jpeg" alt="Margherita Pizza" />
+          <h3>Pizza Madrid</h3>
+          <p>
+            Mozzarella,Domates Sosu,Biber,Sucuk,Kekik</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 165₺</span><br />
+            <span class="large-price">Büyük Boy: 265₺</span>
+          </div>
+        </div>
+        <div class="pizza-item">
+          <img src="img/pizza2.jpg" alt="Margherita Pizza" />
+          <h3>Pizza Milano</h3>
+          <p>
+            Mozzarella,Domates Sucuk</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 145₺</span><br />
+            <span class="large-price">Büyük Boy: 255₺</span>
+          </div>
+        </div>
+        <div class="pizza-item">
+          <img src="img/pizza.jpg" alt="Margherita Pizza" />
+          <h3>Pizza vejeteryan</h3>
+          <p>
+            Mozzarella,DomatesSosu</p>
+          <p>
+            Zeytin,Domates,Mantar,Mısır</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 155₺</span><br />
+            <span class="large-price">Büyük Boy: 260₺</span>
+          </div>
+        </div><div class="pizza-item">
+          <img src="img/pizza3.jpeg" alt="Margherita Pizza" />
+          <h3>Pizza Roma</h3>
+          <p>
+            Mozzarella,Domates Sosu,Sucuk,Salam,Sosis</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 145₺</span><br />
+            <span class="large-price">Büyük Boy: 255₺</span>
+          </div>
+        </div><div class="pizza-item">
+          <img src="img/pizza4.jpeg" alt="Margherita Pizza" />
+          <h3>Pizza Tonno</h3>
+          <p>
+            Mozzarella,Domates Sosu Ton Balığı,Mısır</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 175₺</span><br />
+            <span class="large-price">Büyük Boy: 285₺</span>
+          </div>
+        </div><div class="pizza-item">
+          <img src="img/pizza2.jpg" alt="Margherita Pizza" />
+          <h3>Tavuklu Pizza</h3>
+          <p>
+            Mozzarella,Domates Sosu,Tavuk Parçaları,Biber</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 170₺</span><br />
+            <span class="large-price">Büyük Boy: 275₺</span>
+          </div>
+        </div><div class="pizza-item">
+          <img src="img/pizza.jpg" alt="Margherita Pizza" />
+          <h3>Kavurmalı Pizza</h3>
+          <p>
+            Mozzarella,Domates Sosu,</p>
+            <p>Et Kavruma,Mantar</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 190₺</span><br />
+            <span class="large-price">Büyük Boy: 300₺</span>
+          </div>
+        </div><div class="pizza-item">
+          <img src="img/pizza3.jpeg" alt="Margherita Pizza" />
+          <h3>Bursa Kebaplı Pizza</h3>
+          <p>
+            Mozzarella,Domates Sosu Et Döner Mantar Pizza</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 180₺</span><br />
+            <span class="large-price">Büyük Boy: 290₺</span>
+          </div>
+        </div><div class="pizza-item">
+          <img src="img/pizza2.jpg" alt="Margherita Pizza" />
+          <h3>4 Peynirli Pizza</h3>
+          <p>
+            Süzme Peynir,Rokfor,Mozzarella</p>
+            <p>
+              Pezo Sos,Cheddar Peyniri</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 170₺</span><br />
+            <span class="large-price">Büyük Boy: 275₺</span>
+          </div>
+        </div><div class="pizza-item">
+          <img src="img/pizza4.jpeg" alt="Margherita Pizza" />
+          <h3>Kasap Sucuklu Pizza</h3>
+          <p>
+          Domates Sosu,Mozzarella Peyniri,Mantar,Kasap Sucuk</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 175₺</span><br />
+            <span class="large-price">Büyük Boy: 280₺</span>
+          </div>
+        </div><div class="pizza-item">
+          <img src="img/pizza.jpg" alt="Margherita Pizza" />
+          <h3>Kabaklı Pizza</h3>
+          <p>
+            Domates Sos,Mozzarella,Marine Kabak</p>
+            <p>
+              Pezo Sos,Süzme Peyniri Cheryy Domates</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 150₺</span><br />
+            <span class="large-price">Büyük Boy: 260₺</span>
+          </div>
+        </div>
+        <div class="pizza-item">
+          <img src="img/pizza.jpg" alt="Margherita Pizza" />
+          <h3>Köz Patlıcanlı</h3>
+          <p>
+            Mozzarella,Domates Sosu,Köz Patlıcanlı,Ricotta</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 160₺</span><br />
+            <span class="large-price">Büyük Boy: 265₺</span>
+          </div>
+        </div>
+        <div class="pizza-item">
+          <img src="img/pizza2.jpg" alt="Margherita Pizza" />
+          <h3>Mantarlı</h3>
+          <p>
+            Mozzarella,Domates Sosu,Mantar,Trüf Yağı</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 145₺</span><br />
+            <span class="large-price">Büyük Boy: 255₺</span>
+          </div>
+        </div>
+        <div class="pizza-item">
+          <img src="img/pizza4.jpeg" alt="Margherita Pizza" />
+          <h3>Pastırmalı Connection</h3>
+          <p>
+            Mozzarella,Domates Sosu,Pastırma,Roka</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 200₺</span><br />
+            <span class="large-price">Büyük Boy: 310₺</span>
+          </div>
+        </div>
+        <div class="pizza-item">
+          <img src="img/pizza.jpg" alt="Margherita Pizza" />
+          <h3>Acılı Pep Peroni</h3>
+          <p>
+            Mozzarella,Domates Sosu,pep peroni</p>
+            <p>
+            Mantar,Yeşil Biber,Soğan,Jalepenno</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 165₺</span><br />
+            <span class="large-price">Büyük Boy: 270₺</span>
+          </div>
+        </div>
+        <div class="pizza-item">
+          <img src="img/pizza3.jpeg" alt="Margherita Pizza" />
+          <h3>Enginar Connection</h3>
+          <p>
+            Mozzarella,Domates Sosu,Enginar Kalbi</p>
+            <p>
+            Kırmızı Soğan,Mantar,Pesto Sos</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 170₺</span><br />
+            <span class="large-price">Büyük Boy: 275₺</span>
+          </div>
+        </div>
+        <div class="pizza-item">
+          <img src="img/pizza2.jpg" alt="Margherita Pizza" />
+          <h3>Full Sucuklu Pizza</h3>
+          <p>
+            Mozzarella,Domates Sosu,Dana Sucuk</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 185₺</span><br />
+            <span class="large-price">Büyük Boy: 290₺</span>
+          </div>
+        </div>
+        <div class="pizza-item">
+          <img src="img/pizza4.jpeg" alt="Margherita Pizza" />
+          <h3>Füme Kaburga</h3>
+          <p>
+            Mozzarella,Domates Sosu,Füme Kaburga</p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 195₺</span><br />
+            <span class="large-price">Büyük Boy: 315₺</span>
+          </div>
+        </div>
+        <div class="pizza-item">
+          <img src="img/pizza2.jpg" alt="Margherita Pizza" />
+          <h3>Süper Kumrulu Pizza</h3>
+          <p>
+            Mozzarella,Domates Sosu,400gr Sosis</p>
+            <p>
+            Cheddar Peyniri,Zeytin,Mısır  </p>
+          <div class="pizza-price">
+            <span class="medium-price">Orta Boy: 180₺</span><br />
+            <span class="large-price">Büyük Boy: 290₺</span>
+          </div>
+        </div>
+      </section>
+    <section id="burger" class="burger-section">
+      <h2 class="AnaBaslik"><i>Çıtır Menüler</i></h2>
+      <div class="burger-container">
+        <div class="burger-item">
+          <img src="img/burger.jpg" alt="Tavuk Schinitzel" />
+          <h3>Tavuk Schinitzel</h3>
+          <p>2 Adet Tavuk Schinitzeltzel,Patates.</p>
+          <div class="burger-price">₺170</div>
+        </div>
+        <div class="burger-item">
+          <img src="img/cıtır.jpg" alt="Çıtır Tavuk" />
+          <h3>Çıtır Tavuk</h3>
+          <p>2 Adet Tavuk Göğüs,Patates,3 Adet Tavuk Kanat,3 Adet Nugget.</p>
+          <div class="burger-price">₺230</div>
+        </div>
+        <div class="burger-item">
+          <img src="img/burger2.jpeg" alt="MİKS MENU-1" />
+          <h3>MİKS MENÜ-1</h3>
+          <p>2 Büyük Dilim Pizza,3 Adet Nugget</p>
+          <p>,3 Adet Soğan Halkası.</p>
+          <div class="burger-price">₺170</div>
+        </div>
+        <div class="burger-item">
+          <img src="img/cıtır3.jpg" alt="MİKS MENU-2" />
+          <h3>MİKS MENÜ-2</h3>
+          <p>2 Büyük Dilim Pizza,1 Adet Tavuk Göğüs,</p>
+          <p>1 Adet Tavuk Kanat,3 Adet Soğan Halkası.</p>
+          <div class="burger-price">₺185</div>
+        </div>
+        <div class="burger-item">
+          <img src="img/cıtır.jpg" alt="MİKS MENÜ-3" />
+          <h3>MİKS MENÜ-3</h3>
+          <p>Hamburger,2 Adet Tavuk göğüs,3 Adet Soğan Halkası.</p>
+          <div class="burger-price">₺225</div>
+        </div>
+        <div class="burger-item">
+          <img src="img/burger3.jpeg" alt="MİKS MENÜ-4" />
+          <h3>MİKS MENÜ-4</h3>
+          <p>2 Büyük Dilim Pizza,1 Adet Tavuk Göğüs</p>
+          <p>2 Adet Soğan Halkası.</p>
+          <div class="burger-price">₺175</div>
+        </div>
+        
+      </div>
+    </section>
+    <section id="burger" class="burger-section">
+      <h2 class="AnaBaslik"><i>Burger Menüler</i></h2>
+      <div class="burger-container">
+        <div class="burger-item">
+          <img src="img/burger.jpg" alt="Classic Cheeseburger" />
+          <h3>Classic Cheeseburger</h3>
+          <p>120gr Dana Köfte,100gr Burger Ekmeği,İceberg</p>
+          <p>,Karamelize Soğan,Çedar Peyniri,Burger Sos,Turşu.</p>
+          <div class="burger-price">₺195</div>
+        </div>
+        <div class="burger-item">
+          <img src="img/burger2.jpeg" alt="Burger 7" />
+          <h3>Burger 7</h3>
+          <p>120gr Dana Köfte,100gr Burger Ekmeği,İceberg,Karamelize</p>
+          <p> Soğan,Çedar Peyniri,7 Özel Sos,Turşu.</p>
+          <div class="burger-price">₺200</div>
+        </div>
+        <div class="burger-item">
+          <img src="img/burger3.jpeg" alt="XXL Burger" />
+          <h3>XXL Burger</h3>
+          <p>240gr Dana Köfte,100gr Burger Ekmeği,İceberg,Karamelize Soğan</p>
+          <p>,Çift Çedar Peyniri,Burger Sos,Turşu.</p>
+          <div class="burger-price">₺290</div>
+        </div>
+        <div class="burger-item">
+          <img src="img/burger4.jpeg" alt="Kıtır Patso Burger" />
+          <h3>Kıtır Patso Burger</h3>
+          <p>120gr Dana Köfte,100gr Burger Ekmeği,Kıtır Patates,İceberg</p>
+          <p>Karamelize Soğan,Çedar Peyniri,Burger Sos,Turşu.</p>
+          <div class="burger-price">₺200</div>
+        </div>
+        <div class="burger-item">
+          <img src="img/burger.jpg" alt="7 Füme Burger" />
+          <h3>7 Füme Burger</h3>
+          <p>120gr Dana Köfte,100gr Burger Ekmeği,Füme Kaburga,İceberg,</p>
+          <p>Karamelize Soğan,Çedar Peyniri,Burger Sos,Turşu.</p>
+          <div class="burger-price">₺230</div>
+        </div>
+        <div class="burger-item">
+          <img src="img/burger4.jpeg" alt="Chili Burger" />
+          <h3>Chili Burger</h3>
+          <p>120gr Dana Köfte,100gr Burger Ekmeği,İceberg,</p>
+          <p>Karamelize Soğan,Çedar Peyniri,Özel 7 Acı Sos,Turşu.</p>
+          <div class="burger-price">₺200</div>
+        </div>
+        <div class="burger-item">
+          <img src="img/burger2.jpeg" alt="Chickenn Burger" />
+          <h3>Chickenn Burger</h3>
+          <p>Tavuk Burger,100gr Burger Ekmeği,İceberg,Karamelize Soğan.</p>
+          <div class="burger-price">₺180</div>
+        </div>
+        <div class="burger-item">
+          <img src="img/burger3.jpeg" alt="Chickenn Göğüs Burger" />
+          <h3>Chickenn Göğüs Burger</h3>
+          <p>Çıtır Kaplamalı,100gr Burger Ekmeği,İceberg</p>
+          <p>Göğüs Parçacıkları,Karamelize Soğan.</p>
+          <div class="burger-price">₺185</div>
+        </div>
+       </div>
+    </section>
+    <section id="tost">
+      <h2 class="AnaBaslik"><i>TOST & BÖREKLER</i></h2>
+    </section>
+    <section>
+      <div class="menu-container">
+        <!-- FİLTRE KAHVE Bölümü -->
+        <section class="menu-section">
+          <h2 class="menu-title">Tostlar</h2>
+          <div class="menu-item">
+            <span class="item-name">Sucuklu Tost</span>
+            <span class="item-desc">Sucuk,Özel sos,Turşu,Pul Biber</span>
+            <span class="item-price">145 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Sucuklu Kaşarlı Tost</span>
+            <span class="item-desc">Sucuk,Kaşar,Özel sos,Turşu,Pul Biber</span>
+            <span class="item-price">160 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name"> Kaşarlı Tost</span>
+            <span class="item-desc">Kaşar,Özel sos,Turşu,Pul Biber</span>
+            <span class="item-price">145 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Nugget Tost</span>
+            <span class="item-desc"> Tavuk Nugget,Kaşar,Özel sos,Turşu,Pul Biber</span>
+            <span class="item-price">160 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Patates Kızartmalı Tost</span>
+            <span class="item-desc"> Patates,Özel sos,Turşu,Pul Biber</span>
+            <span class="item-price">160 TL </span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Kavurmalı Tost</span>
+            <span class="item-desc"> Dana Kavurma,Kaşar,Özel sos,Turşu,Pul Biber</span>
+            <span class="item-price">210 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Salamlı Tost</span>
+            <span class="item-desc"> Salam,Kaşar,Özel sos,Turşu,Pul Biber</span>
+            <span class="item-price">175 TL</span>
+          </div>
+        </section>
+      
+        <!-- BÖREK Bölümü -->
+        <section class="menu-section">
+          <h2 class="menu-title">BÖREKLER</h2>
+          <div class="menu-item">
+            <span class="item-name">Kumrulu Tost</span>
+            <span class="item-desc">Kumruluk Sosis,Özel sos,Turşu,Pul Biber</span>
+            <span class="item-price">145 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Zeytinli Kaşarlı Tost</span>
+            <span class="item-desc">Dilim Zeytin,Kaşar,Özel sos,Turşu</span>
+            <span class="item-price">155 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name"> Kaşarlı Börek</span>
+            <span class="item-desc">Kaşar,Özel sos</span>
+            <span class="item-price">110 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name"> Zeytinli Börek</span>
+            <span class="item-desc">Zeytin,Kaşar,Özel sos</span>
+            <span class="item-price">115 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name"> Kavurmalı Börek</span>
+            <span class="item-desc">Kavurma,Kaşar,Özel sos</span>
+            <span class="item-price">140 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Dometesli Börek</span>
+            <span class="item-desc">Domates,Kaşar,Özel sos,Pul Biber</span>
+            <span class="item-price">115 TL</span>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section id="icecek">
+      <h2 class="AnaBaslik">ATIŞTIRMALIK & İÇECEKLER</h2>
+    </section>
+    <section>
+      <div class="menu-container">
+        <!-- FİLTRE KAHVE Bölümü -->
+        <section class="menu-section">
+          <h2 class="menu-title">ATIŞTIRMALIK</h2>
+          <div class="menu-item">
+            <span class="item-name">Tavuk Kanat 3 Adet</span>
+            <span class="item-price">80 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Tavuk Göğüs 3 Adet</span>
+            <span class="item-price">90 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Soğan Halkası 3 Adet</span>
+            <span class="item-price">25 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Nugget 3 Adet</span>
+            <span class="item-price">30 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Porsiyon Patates Cipsi</span>
+            <span class="item-price">100 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name"> Yarım Porsiyon Patates Cipsi</span>
+            <span class="item-price">50 TL</span>
+          </div>
+        </section>
+
+        <!-- LATTE & MACCHIATO Bölümü -->
+        <section class="menu-section">
+          <h2 class="menu-title">İÇECEKLER</h2>
+          <div class="menu-item">
+            <span class="item-name">Türk Kahvesi</span>
+            <span class="item-price">80 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Coco Cola(330ml)</span>
+            <span class="item-price">50 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Coco Cola(200ml)</span>
+            <span class="item-price">35 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Fanta(330ml)</span>
+            <span class="item-price">50 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Fanta(200ml)</span>
+            <span class="item-price">35 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Fuse Tea Çeşitleri(300ml)</span>
+            <span class="item-price">50 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Sprite(250ml)</span>
+            <span class="item-price">40 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Meyve Suyu Çeşitleri(250ml)</span>
+            <span class="item-price">40 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Sade Soda</span>
+            <span class="item-price">25 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Meyveli Soda</span>
+            <span class="item-price">25 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Ayran(300ml)</span>
+            <span class="item-price">30 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">1 lt. İçecek</span>
+            <span class="item-price">60 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Su</span>
+            <span class="item-price">15 TL</span>
+          </div>
+          <div class="menu-item">
+            <span class="item-name">Çay</span>
+            <span class="item-price">20 TL</span>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- Footer Bölümü -->
+    <footer id="iletim" class="footer">
+      <div class="footer-container">
+        <!-- Kısa Hakkımızda -->
+        <div class="footer-section about">
+          <h3>Konum Bilgimiz</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d48743.50578376912!2d28.90137786700932!3d40.22087079647226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x14ca13afa12e93cb%3A0xb87679944a19e566!2s23%20nisan%20mahallesi%20mithatpa%C5%9Fa%20caddesi%20%3A17%20c%2Fb%2C%2016130%20Ni%CC%87l%C3%BCfer%2FBursa!3m2!1d40.2208781!2d28.9425775!5e0!3m2!1str!2str!4v1734471178780!5m2!1str!2str"
+            width="400"
+            height="300"
+            style="border-radius: 10px; border:10px solid black"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+    
+        <!-- İletişim Bilgileri -->
+        <div class="footer-section contact">
+          <h3>İletişim</h3>
+          <ul>
+            <li>📍 Adres: BURSA/Nilüfer, 23 nisan mahallesi,mithatpaşa caddesi :17 c/b, 16130,PİZZA 7</li>
+            <li>📞 Telefon: 0 224 443 47 78</li>
+            <li>✉️ Email: info@lezzetdunyasi.com</li>
+          </ul>
+        </div>
+    
+        <!-- Sosyal Medya -->
+        <div class="footer-section social">
+          <h3>Bizi Takip Edin</h3>
+          <a href="https://www.instagram.com/pizza__7__/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+          <a href="https://www.yemeksepeti.com/restaurant/brtr/pizza-7-brtr" target="_blank"><img src="img/yemekSepeti.png" alt="Yemeksepeti" class="social-logo"></a>
+          <a href="https://getir.com/yemek/restoran/pizza-7nilufer-23-nisan-nilufer-bursa/" target="_blank"><img src="img/getir.png" alt="Trendyol Yemek" class="social-logo"></a>
+        </div>
+      </div>
+    
+      <!-- Telif Hakkı -->
+      <div class="footer-bottom">
+        <p>&copy;   2024 @23emir_yldz ve @_mehmetklk Tasarımı | Tüm Hakları Saklıdır.</p>
+      </div>
+    </footer>
+</body>
+</html>

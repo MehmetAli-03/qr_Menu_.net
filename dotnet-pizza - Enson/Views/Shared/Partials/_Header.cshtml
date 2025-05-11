@@ -1,0 +1,38 @@
+<div class="navbar">
+        <h1 class="brand">
+          <img src="img/amblem.png" alt="" />
+        </h1>
+        <div class="toggle-icon" onclick="toggleMenu()">☰</div>
+        <nav>
+          <ul>
+            <li><a href="#pizza3">Pizzalar</a></li>
+            <li><a href="#burger">Burger</a></li>
+            <li><a href="#tost">Börekler & Tostlar</a></li>
+            <li><a href="#icecek">Atıştırmalık & İçecekler</a></li>
+            <li><a href="#iletim">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    <!-- <script src="js/efekt.js"></script> -->
+      <script>
+        function toggleMenu() {
+          const menu = document.querySelector('.navbar nav ul');
+          menu.classList.toggle('active');
+        }
+    
+        // Menü öğelerine tıklandığında toggle menüyü kapat
+        document.querySelectorAll('.navbar nav ul li a').forEach(link => {
+          link.addEventListener('click', () => {
+            const menu = document.querySelector('.navbar nav ul');
+            if (menu.classList.contains('active')) {
+              menu.classList.remove('active');
+            }
+          });
+        });
+      </script>
+    
+      <div class="content">
+        <img src="img/amblem.png" alt="" />
+        <p>HOŞGELDİNİZ</p>
+        <a href="#pizza3" class="btn-more">MENÜ</a>
+      </div>
